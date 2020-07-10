@@ -2,6 +2,8 @@
 
 Juego desarrollado en React.
 
+[Demo](http://ppt.setentatreinta.online/)
+
 ![logo][img1]
 
 Aplicacion realizada con HTML,CSS y JS (React)
