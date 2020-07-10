@@ -6,6 +6,7 @@ export default function Puntuacion({resultado,puntuacion,setPuntuacion}) {
         if (resultado !== false){
             setPuntuacion(parseInt(puntuacion)+parseInt(resultado))
         }
+        // eslint-disable-next-line
     }, [resultado])
 
     return (

@@ -8,6 +8,9 @@ function App() {
 
   const [jugar, setJugar] = useState(false)
   const [nick, setNick] = useState('')
+  
+    //Fecha
+    const date = new Date();
   return (
     <Fragment>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -31,6 +34,9 @@ function App() {
             />
         }
       </div>
+      <footer>
+          by <a className="link-footer" target="black" href="https://setentatreinta.online">lucassequeira.com</a> - Piedra papel o tijera - {date.getFullYear()}
+      </footer>
     </Fragment>
   );
 }

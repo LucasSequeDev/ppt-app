@@ -142,3 +142,24 @@ nav {
   font-size: 10px;
 }
 
+
+footer {
+  color: black;
+  background-color: #fff;
+  border-top: #ccc solid 4px;
+  margin: 15px 0 0 0;
+  width: 100%;
+  position: fixed;
+  padding: 15px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.link-footer {
+	text-decoration: none;
+  color: #45ADA8;
+	transition: 0.3s ease;
+}
+
+
